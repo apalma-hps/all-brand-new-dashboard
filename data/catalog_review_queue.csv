@@ -1,0 +1,17 @@
+item_raw,item_key,tipo_concepto,tipo_concepto_key,qty_total,tickets,restaurantes,primera_fecha,ultima_fecha,suggested_canonical,suggestion_score,needs_manual_review
+Queso,queso,complemento,complemento,5485.0,2126,2,2025-07-03 14:24:00,2026-03-18 11:08:00,Sin Queso,0.7142857142857143,True
+Coca - Cola,coca - cola,complemento,complemento,230.0,174,1,2026-01-13 17:20:00,2026-03-17 15:35:00,Coca-Cola Light,0.6923076923076923,True
+BurriPapas,burripapas,base,base,199.0,184,2,2025-12-22 13:41:00,2026-03-17 20:37:00,BurriPapas Chicas,0.7407407407407407,True
+7 up,7 up,complemento,complemento,192.0,172,1,2026-01-15 16:21:00,2026-03-17 18:47:00,7UP!,0.8571428571428571,True
+Coca - Cola sin Azúcar,coca - cola sin azucar,complemento,complemento,134.0,112,1,2026-01-15 13:39:00,2026-03-17 16:48:00,Coca-Cola Sin Azucar,0.9523809523809523,False
+Agua Mineral R,agua mineral r,complemento,complemento,64.0,59,1,2025-12-17 13:20:00,2026-01-15 14:16:00,Agua Mineral,0.9230769230769231,False
+Queso y Tocino,queso y tocino,complemento,complemento,46.0,46,1,2025-07-02 13:47:00,2026-02-19 17:00:00,Extra Tocino,0.6153846153846154,True
+Quesadillota,quesadillota,base,base,33.0,27,1,2026-02-12 19:06:00,2026-03-17 12:22:00,Quesadilla Norteña,0.8,True
+Agua Tamarindo,agua tamarindo,base,base,14.0,9,2,2025-12-13 18:13:00,2025-12-27 16:13:00,Agua de Tamarindo Los Colorines,0.6222222222222222,True
+Agua de Horchata,agua de horchata,base,base,7.0,6,2,2025-12-11 16:16:00,2025-12-23 14:40:00,Agua de Horchata Embotellada,0.7272727272727273,True
+Jarritos Limón,jarritos limon,complemento,complemento,4.0,4,2,2026-02-23 14:33:00,2026-02-24 15:07:00,Té de Limón,0.56,True
+Bacon Cheeseburger E,bacon cheeseburger e,base,base,1.0,1,1,2026-02-21 18:36:00,2026-02-21 18:36:00,Bacon Cheese Burger,0.9230769230769231,False
+Jarritos Mandarina,jarritos mandarina,complemento,complemento,1.0,1,1,2026-02-23 16:03:00,2026-02-23 16:03:00,Burrito Santi,0.5806451612903226,True
+Jarritos Sidral,jarritos sidral,base,base,1.0,1,1,2026-02-26 16:25:00,2026-02-26 16:25:00,Burrito Santi,0.5714285714285714,True
+Jarritos Sidral,jarritos sidral,complemento,complemento,1.0,1,1,2026-02-23 15:11:00,2026-02-23 15:11:00,Burrito Santi,0.5714285714285714,True
+Jarritos Tutti Frutti,jarritos tutti frutti,complemento,complemento,1.0,1,1,2026-02-24 16:15:00,2026-02-24 16:15:00,Burrito Santi,0.47058823529411764,True

@@ -1,0 +1,322 @@
+concepto,tipo_concepto,conteo_total,Categoria_raw,rule_action,include_in_count,es_remap,concepto_canonico,concepto_key,tipo_concepto_key,canon_key,compile_status,issue_reason,duplicate_count,source_rows,categoria_fuente_all
+Salsa Verde,complemento,10297.0,Modificadores,direct,True,False,Salsa Verde,salsa verde,complemento,salsa verde,ok,,1,2,Modificadores
+Salsa Cacahuate,complemento,7800.0,Modificadores,direct,True,False,Salsa Cacahuate,salsa cacahuate,complemento,salsa cacahuate,ok,,1,3,Modificadores
+Limones,complemento,7796.0,Complementos,direct,True,False,Limones,limones,complemento,limones,ok,,1,4,Complementos
+BurriPapas,complemento,4964.0,contar como BurriPapas Grandes,count_as,True,True,BurriPapas Grandes,burripapas,complemento,burripapas grandes,ok,,1,5,contar como BurriPapas Grandes
+BurriCombo Grande,base,4071.0,Combos,direct,True,False,BurriCombo Grande,burricombo grande,base,burricombo grande,ok,,1,6,Combos
+Papas,complemento,3656.0,Complementos,direct,True,False,Papas,papas,complemento,papas,ok,,1,7,Complementos
+Combo de Flautas,base,2864.0,Combos,direct,True,False,Combo de Flautas,combo de flautas,base,combo de flautas,ok,,1,8,Combos
+Elote,complemento,2259.0,Complementos,direct,True,False,Elote,elote,complemento,elote,ok,,1,10,Complementos
+Combo Mega Pollón,base,2086.0,Combos,direct,True,False,Combo Mega Pollón,combo mega pollon,base,combo mega pollon,ok,,1,11,Combos
+Pollo,complemento,1863.0,Contar como Flauta de Pollo,count_as,True,True,Flauta de Pollo,pollo,complemento,flauta de pollo,ok,,1,12,Contar como Flauta de Pollo
+Res,complemento,1632.0,Contar como Flauta de Res,count_as,True,True,Flauta de Res,res,complemento,flauta de res,ok,,1,13,Contar como Flauta de Res
+Original,complemento,1587.0,Alimentos,direct,True,False,Original,original,complemento,original,ok,,1,14,Alimentos
+Crema,complemento,1544.0,Complementos,direct,True,False,Crema,crema,complemento,crema,ok,,1,15,Complementos
+Cerveza Botella,base,1431.0,Bebidas Alcohólicas,direct,True,False,Cerveza Botella,cerveza botella,base,cerveza botella,ok,,1,16,Bebidas Alcohólicas
+Refrescos,base,1273.0,No contar,exclude,False,False,Refrescos,refrescos,base,refrescos,ok,,1,17,No contar
+Asada Combo,complemento,1266.0,Contar como Burrito de Asada,count_as,True,True,Burrito de Asada,asada combo,complemento,burrito de asada,ok,,1,18,Contar como Burrito de Asada
+Chilangazo Combo,complemento,1237.0,Contar como Burrito Chilangazo,count_as,True,True,Burrito Chilangazo,chilangazo combo,complemento,burrito chilangazo,ok,,1,19,Contar como Burrito Chilangazo
+Picante,complemento,1215.0,Modificadores,direct,True,False,Picante,picante,complemento,picante,ok,,1,20,Modificadores
+Santi Combo,complemento,1212.0,Contar como Burrito Santi,count_as,True,True,Burrito Santi,santi combo,complemento,burrito santi,ok,,1,21,Contar como Burrito Santi
+BurriCombo,base,1166.0,Combos,direct,True,False,BurriCombo,burricombo,base,burricombo,ok,,1,22,Combos
+Ensalada de Col,complemento,1009.0,Complementos,direct,True,False,Ensalada de Col,ensalada de col,complemento,ensalada de col,ok,,1,23,Complementos
+Coca Regular Combo,complemento,999.0,Contar como Coca-Cola Regular,count_as,True,True,Coca-Cola Regular,coca regular combo,complemento,coca-cola regular,ok,,1,24,Contar como Coca-Cola Regular
+Norteño Combo,complemento,966.0,Contar como Burrito Norteño New York,count_as,True,True,Burrito Norteño New York,norteno combo,complemento,burrito norteno new york,ok,,1,25,Contar como Burrito Norteño New York
+Chicharron,complemento,929.0,Contar como Flauta de Chicharron,count_as,True,True,Flauta de Chicharron,chicharron,complemento,flauta de chicharron,ok,,1,26,Contar como Flauta de Chicharron
+PEPSI,complemento,826.0,Bebidas,direct,True,False,PEPSI,pepsi,complemento,pepsi,ok,,1,27,Bebidas
+Agua Jamaica Embotellada,complemento,816.0,Bebidas,direct,True,False,Agua Jamaica Embotellada,agua jamaica embotellada,complemento,agua jamaica embotellada,ok,,1,28,Bebidas
+Flauta de Pollo,base,744.0,Alimentos,direct,True,False,Flauta de Pollo,flauta de pollo,base,flauta de pollo,ok,,1,29,Alimentos
+Medianas,complemento,744.0,Alimentos,direct,True,False,Medianas,medianas,complemento,medianas,ok,,1,30,Alimentos
+Jamaica Embotellada,complemento,703.0,Bebidas,direct,True,False,Jamaica Embotellada,jamaica embotellada,complemento,jamaica embotellada,ok,,1,31,Bebidas
+Horchata Embotellada,complemento,697.0,Bebidas,direct,True,False,Horchata Embotellada,horchata embotellada,complemento,horchata embotellada,ok,,1,32,Bebidas
+Burrito Norteño New York,base,670.0,Alimentos,direct,True,False,Burrito Norteño New York,burrito norteno new york,base,burrito norteno new york,ok,,1,33,Alimentos
+Burrito de Asada,base,662.0,Alimentos,direct,True,False,Burrito de Asada,burrito de asada,base,burrito de asada,ok,,1,34,Alimentos
+Combo Tiras,base,654.0,Combos,direct,True,False,Combo Tiras,combo tiras,base,combo tiras,ok,,1,35,Combos
+Agua de Horchata Embotellada,complemento,639.0,Bebidas,direct,True,False,Agua de Horchata Embotellada,agua de horchata embotellada,complemento,agua de horchata embotellada,ok,,1,36,Bebidas
+Burrito Chilangazo,base,631.0,Alimentos,direct,True,False,Burrito Chilangazo,burrito chilangazo,base,burrito chilangazo,ok,,1,37,Alimentos
+Salseadas,complemento,620.0,Modificadores,direct,True,False,Salseadas,salseadas,complemento,salseadas,ok,,1,38,Modificadores
+Combo Grande de Asada,base,616.0,Combos,direct,True,False,Combo Grande de Asada,combo grande de asada,base,combo grande de asada,ok,,1,39,Combos
+Coca Sin Azucar Combo,complemento,598.0,Contar como Coca-Cola Sin Azucar,count_as,True,True,Coca-Cola Sin Azucar,coca sin azucar combo,complemento,coca-cola sin azucar,ok,,1,40,Contar como Coca-Cola Sin Azucar
+Flauta de Res,base,563.0,Alimentos,direct,True,False,Flauta de Res,flauta de res,base,flauta de res,ok,,1,41,Alimentos
+Salsa Morita,complemento,562.0,Modificadores,direct,True,False,Salsa Morita,salsa morita,complemento,salsa morita,ok,,1,42,Modificadores
+Papa con Chorizo,complemento,550.0,Contar como Flauta de Papa con Chorizo,count_as,True,True,Flauta de Papa con Chorizo,papa con chorizo,complemento,flauta de papa con chorizo,ok,,2,"43,210",Contar como Flauta de Papa con Chorizo
+Aguas Embotelladas,base,542.0,No contar,exclude,False,False,Aguas Embotelladas,aguas embotelladas,base,aguas embotelladas,ok,,1,44,No contar
+Manzanita,complemento,527.0,Bebidas,direct,True,False,Manzanita,manzanita,complemento,manzanita,ok,,1,45,Bebidas
+Cerveza 1/2 Litro Clara,base,517.0,Bebidas Alcohólicas,direct,True,False,Cerveza 1/2 Litro Clara,cerveza 1/2 litro clara,base,cerveza 1/2 litro clara,ok,,1,46,Bebidas Alcohólicas
+Papa,complemento,511.0,Contar como Flauta de Papa,count_as,True,True,Flauta de Papa,papa,complemento,flauta de papa,ok,,1,47,Contar como Flauta de Papa
+Coca-Cola Regular,complemento,504.0,Bebidas,direct,True,False,Coca-Cola Regular,coca-cola regular,complemento,coca-cola regular,ok,,1,48,Bebidas
+BBQ,complemento,501.0,Modificadores,direct,True,False,BBQ,bbq,complemento,bbq,ok,,1,49,Modificadores
+PEPSI Black (Sin Azúcar),complemento,500.0,Bebidas,direct,True,False,PEPSI Black (Sin Azúcar),pepsi black sin azucar,complemento,pepsi black sin azucar,ok,,1,50,Bebidas
+Combo Boneless,base,477.0,Combos,direct,True,False,Combo Boneless,combo boneless,base,combo boneless,ok,,1,51,Combos
+Burrito Santi,base,465.0,Alimentos,direct,True,False,Burrito Santi,burrito santi,base,burrito santi,ok,,1,52,Alimentos
+Agua Mineral,complemento,461.0,Bebidas,direct,True,False,Agua Mineral,agua mineral,complemento,agua mineral,ok,,1,53,Bebidas
+Papa con Queso,complemento,461.0,Contar como Flauta de  Papa con Queso,count_as,True,True,Flauta de Papa con Queso,papa con queso,complemento,flauta de papa con queso,ok,,1,54,Contar como Flauta de  Papa con Queso
+Mini Burrito de Asada,base,454.0,Alimentos,direct,True,False,Mini Burrito de Asada,mini burrito de asada,base,mini burrito de asada,ok,,1,55,Alimentos
+Combo Mega Buffalon,base,424.0,Combos,direct,True,False,Combo Mega Buffalon,combo mega buffalon,base,combo mega buffalon,ok,,1,56,Combos
+Tamarindo Embotellada,complemento,422.0,Contar como Agua de Tamarindo Embotellada,count_as,True,True,Agua de Tamarindo Embotellada,tamarindo embotellada,complemento,agua de tamarindo embotellada,ok,,1,57,Contar como Agua de Tamarindo Embotellada
+Squirt,complemento,407.0,Bebidas,direct,True,False,Squirt,squirt,complemento,squirt,ok,,1,58,Bebidas
+7UP!,complemento,395.0,Bebidas,direct,True,False,7UP!,7up,complemento,7up,ok,,1,59,Bebidas
+Cerveza Litro Clara,base,386.0,Bebidas Alcohólicas,direct,True,False,Cerveza Litro Clara,cerveza litro clara,base,cerveza litro clara,ok,,1,60,Bebidas Alcohólicas
+Coca Cola Sin Azucar,complemento,366.0,Contar como Coca-Cola Sin Azucar,count_as,True,True,Coca-Cola Sin Azucar,coca cola sin azucar,complemento,coca-cola sin azucar,ok,,1,61,Contar como Coca-Cola Sin Azucar
+Cerveza Litro Oscura,base,360.0,Bebidas Alcohólicas,direct,True,False,Cerveza Litro Oscura,cerveza litro oscura,base,cerveza litro oscura,ok,,1,62,Bebidas Alcohólicas
+BurriPapas Chicas,base,344.0,Complementos,direct,True,False,BurriPapas Chicas,burripapas chicas,base,burripapas chicas,ok,,1,63,Complementos
+Salsa Roja,complemento,340.0,Modificadores,direct,True,False,Salsa Roja,salsa roja,complemento,salsa roja,ok,,1,64,Modificadores
+Ciel Mineral Combo,complemento,336.0,Bebidas,direct,True,False,Ciel Mineral Combo,ciel mineral combo,complemento,ciel mineral combo,ok,,1,65,Bebidas
+Agua de Tamarindo Embotellada,complemento,334.0,Bebidas,direct,True,False,Agua de Tamarindo Embotellada,agua de tamarindo embotellada,complemento,agua de tamarindo embotellada,ok,,1,67,Bebidas
+Combo Grande  Chilangazo,base,334.0,Combos,direct,True,False,Combo Grande  Chilangazo,combo grande chilangazo,base,combo grande chilangazo,ok,,1,68,Combos
+Topo Chico,complemento,334.0,Bebidas,direct,True,False,Topo Chico,topo chico,complemento,topo chico,ok,,1,66,Bebidas
+Mini Burrito Norteño New York,base,320.0,Alimentos,direct,True,False,Mini Burrito Norteño New York,mini burrito norteno new york,base,mini burrito norteno new york,ok,,1,69,Alimentos
+Mini Burrito Chilangazo,base,314.0,Alimentos,direct,True,False,Mini Burrito Chilangazo,mini burrito chilangazo,base,mini burrito chilangazo,ok,,1,70,Alimentos
+Coca Cola Regular,complemento,301.0,Contar como Coca-Cola Regular,count_as,True,True,Coca-Cola Regular,coca cola regular,complemento,coca-cola regular,ok,,1,71,Contar como Coca-Cola Regular
+Combo Delux Supremo,base,297.0,Combos,direct,True,False,Combo Delux Supremo,combo delux supremo,base,combo delux supremo,ok,,1,72,Combos
+Sidral Mundet,complemento,289.0,Bebidas,direct,True,False,Sidral Mundet,sidral mundet,complemento,sidral mundet,ok,,1,73,Bebidas
+Coca-Cola Sin Azucar,complemento,285.0,Bebidas,direct,True,False,Coca-Cola Sin Azucar,coca-cola sin azucar,complemento,coca-cola sin azucar,ok,,1,74,Bebidas
+Flauta de Queso,base,283.0,Alimentos,direct,True,False,Flauta de Queso,flauta de queso,base,flauta de queso,ok,,1,75,Alimentos
+Flauta de Chicharron,base,281.0,Alimentos,direct,True,False,Flauta de Chicharron,flauta de chicharron,base,flauta de chicharron,ok,,1,76,Alimentos
+Sidral Combo,complemento,278.0,Contar como Sidral Mundet,count_as,True,True,Sidral Mundet,sidral combo,complemento,sidral mundet,ok,,1,77,Contar como Sidral Mundet
+Agua Ciel Combo,complemento,277.0,Contar como Agua Ciel,count_as,True,True,Agua Ciel,agua ciel combo,complemento,agua ciel,ok,,1,78,Contar como Agua Ciel
+Coca Light Combo,complemento,273.0,Contar como Coca-Cola Light,count_as,True,True,Coca-Cola Light,coca light combo,complemento,coca-cola light,ok,,1,79,Contar como Coca-Cola Light
+Combo Flautas + Quesadillota,base,272.0,Combos,direct,True,False,Combo Flautas + Quesadillota,combo flautas quesadillota,base,combo flautas quesadillota,ok,,1,80,Combos
+Boneless 10,complemento,271.0,Contar como Boneless 10  Piezas,count_as,True,True,Boneless 10 Piezas,boneless 10,complemento,boneless 10 piezas,ok,,1,81,Contar como Boneless 10  Piezas
+Mango Habanero,complemento,270.0,Modificadores,direct,True,False,Mango Habanero,mango habanero,complemento,mango habanero,ok,,1,82,Modificadores
+Mini Burrito Santi,base,267.0,Alimentos,direct,True,False,Mini Burrito Santi,mini burrito santi,base,mini burrito santi,ok,,1,83,Alimentos
+Bufalo,complemento,265.0,Contar como Buffalo,count_as,True,True,Buffalo,bufalo,complemento,buffalo,ok,,2,"85,223",Contar como Buffalo
+Cerveza 1/2 Litro Oscura,base,265.0,Bebidas Alcohólicas,direct,True,False,Cerveza 1/2 Litro Oscura,cerveza 1/2 litro oscura,base,cerveza 1/2 litro oscura,ok,,1,84,Bebidas Alcohólicas
+BurriPapas Grandes,base,261.0,Complementos,direct,True,False,BurriPapas Grandes,burripapas grandes,base,burripapas grandes,ok,,1,86,Complementos
+Guacamole,base,261.0,Modificadores,direct,True,False,Guacamole,guacamole,base,guacamole,ok,,1,87,Modificadores
+Naranja,complemento,260.0,Complementos,direct,True,False,Naranja,naranja,complemento,naranja,ok,,1,88,Complementos
+Guacamolito,base,259.0,Complementos,direct,True,False,Guacamolito,guacamolito,base,guacamolito,ok,,1,89,Complementos
+Burrito Spicy Boneless,base,258.0,Alimentos,direct,True,False,Burrito Spicy Boneless,burrito spicy boneless,base,burrito spicy boneless,ok,,1,90,Alimentos
+Buffalo,complemento,251.0,Modificadores,direct,True,False,Buffalo,buffalo,complemento,buffalo,ok,,1,91,Modificadores
+Boneless 10  Piezas,base,247.0,Alimentos,direct,True,False,Boneless 10  Piezas,boneless 10 piezas,base,boneless 10 piezas,ok,,1,92,Alimentos
+Sprite Combo,complemento,237.0,Contar como Sprite,count_as,True,True,Sprite,sprite combo,complemento,sprite,ok,,1,93,Contar como Sprite
+Combo Grande Santi,base,227.0,Combos,direct,True,False,Combo Grande Santi,combo grande santi,base,combo grande santi,ok,,1,94,Combos
+BurriNutella,base,224.0,Alimentos,direct,True,False,BurriNutella,burrinutella,base,burrinutella,ok,,1,95,Alimentos
+Flauta de Papa,base,223.0,Alimentos,direct,True,False,Flauta de Papa,flauta de papa,base,flauta de papa,ok,,1,96,Alimentos
+BurriPapas Cheese & Bacon,base,216.0,Complementos,direct,True,False,BurriPapas Cheese & Bacon,burripapas cheese bacon,base,burripapas cheese bacon,ok,,1,97,Complementos
+Tarro Michelado,complemento,215.0,Modificadores,direct,True,False,Tarro Michelado,tarro michelado,complemento,tarro michelado,ok,,1,98,Modificadores
+Choriqueso,complemento,209.0,Complementos,direct,True,False,Choriqueso,choriqueso,complemento,choriqueso,ok,,1,99,Complementos
+No Jalapeños,complemento,205.0,Modificadores,direct,True,False,No Jalapeños,no jalapenos,complemento,no jalapenos,ok,,1,100,Modificadores
+Con Todo,complemento,204.0,Modificadores,direct,True,False,Con Todo,con todo,complemento,con todo,ok,,1,101,Modificadores
+Sin Salsear,complemento,198.0,Modificadores,direct,True,False,Sin Salsear,sin salsear,complemento,sin salsear,ok,,1,102,Modificadores
+Cerveza Embotellada,base,197.0,Contar como Cerveza Botella,count_as,True,True,Cerveza Botella,cerveza embotellada,base,cerveza botella,ok,,1,103,Contar como Cerveza Botella
+Alitas 10 Piezas,base,194.0,Alimentos,direct,True,False,Alitas 10 Piezas,alitas 10 piezas,base,alitas 10 piezas,ok,,1,104,Alimentos
+Arrachera,complemento,191.0,Complementos,direct,True,False,Arrachera,arrachera,complemento,arrachera,ok,,1,105,Complementos
+Combo Sandwich de Pollo CRISPIER,base,190.0,Combos,direct,True,False,Combo Sandwich de Pollo CRISPIER,combo sandwich de pollo crispier,base,combo sandwich de pollo crispier,ok,,1,106,Combos
+Martes de Burritos 189,base,188.0,Combos,direct,True,False,Martes de Burritos 189,martes de burritos 189,base,martes de burritos 189,ok,,1,107,Combos
+BurriPapas Gdes,complemento,185.0,contar como BurriPapas Grandes,count_as,True,True,BurriPapas Grandes,burripapas gdes,complemento,burripapas grandes,ok,,1,108,contar como BurriPapas Grandes
+Mezcalitas,base,181.0,Bebidas Alcohólicas,direct,True,False,Mezcalitas,mezcalitas,base,mezcalitas,ok,,1,109,Bebidas Alcohólicas
+Papas Sazonadas,base,180.0,Complementos,direct,True,False,Papas Sazonadas,papas sazonadas,base,papas sazonadas,ok,,1,110,Complementos
+Mega Pollón Individual,base,176.0,Alimentos,direct,True,False,Mega Pollón Individual,mega pollon individual,base,mega pollon individual,ok,,1,111,Alimentos
+Sprite,complemento,176.0,Bebidas,direct,True,False,Sprite,sprite,complemento,sprite,ok,,1,112,Bebidas
+Crispier,complemento,168.0,Contar como Sandwich Crispier Individual,count_as,True,True,Sandwich Crispier Individual,crispier,complemento,sandwich crispier individual,ok,,1,114,Contar como Sandwich Crispier Individual
+Flauta de Papa con Chorizo,base,168.0,Alimentos,direct,True,False,Flauta de Papa con Chorizo,flauta de papa con chorizo,base,flauta de papa con chorizo,ok,,1,115,Alimentos
+Nuggets De Pollo Frito,base,168.0,Complementos,direct,True,False,Nuggets De Pollo Frito,nuggets de pollo frito,base,nuggets de pollo frito,ok,,1,113,Complementos
+Mini Burrito Mexa,base,166.0,Alimentos,direct,True,False,Mini Burrito Mexa,mini burrito mexa,base,mini burrito mexa,ok,,1,116,Alimentos
+BurriPapas Cheese,base,159.0,Complementos,direct,True,False,BurriPapas Cheese,burripapas cheese,base,burripapas cheese,ok,,1,117,Complementos
+Grandes con Queso,complemento,157.0,Alimentos,direct,True,False,Grandes con Queso,grandes con queso,complemento,grandes con queso,ok,,1,118,Alimentos
+Agua Ciel,complemento,154.0,Bebidas,direct,True,False,Agua Ciel,agua ciel,complemento,agua ciel,ok,,1,119,Bebidas
+Fresca Combo,complemento,154.0,Contar como Fresca,count_as,True,True,Fresca,fresca combo,complemento,fresca,ok,,1,120,Contar como Fresca
+Quesadilla Norteña,base,152.0,Alimentos,direct,True,False,Quesadilla Norteña,quesadilla nortena,base,quesadilla nortena,ok,,1,121,Alimentos
+Mini Burrito Spicy Boneless,base,149.0,Alimentos,direct,True,False,Mini Burrito Spicy Boneless,mini burrito spicy boneless,base,mini burrito spicy boneless,ok,,1,122,Alimentos
+Extra Queso,base,147.0,Extras,direct,True,False,Extra Queso,extra queso,base,extra queso,ok,,1,123,Extras
+Flauta de  Papa con Queso,base,147.0,Alimentos,direct,True,False,Flauta de  Papa con Queso,flauta de papa con queso,base,flauta de papa con queso,ok,,1,124,Alimentos
+Aguas Frescas,base,138.0,No contar,exclude,False,False,Aguas Frescas,aguas frescas,base,aguas frescas,ok,,1,125,No contar
+Ensalada,complemento,128.0,Complementos,direct,True,False,Ensalada,ensalada,complemento,ensalada,ok,,1,126,Complementos
+Combo Quesadillota,base,122.0,Combos,direct,True,False,Combo Quesadillota,combo quesadillota,base,combo quesadillota,ok,,1,127,Combos
+Bacon Cheese Burger,base,121.0,Alimentos,direct,True,False,Bacon Cheese Burger,bacon cheese burger,base,bacon cheese burger,ok,,1,128,Alimentos
+Mostaza Dulce,complemento,117.0,Modificadores,direct,True,False,Mostaza Dulce,mostaza dulce,complemento,mostaza dulce,ok,,1,129,Modificadores
+Fresca,complemento,116.0,Bebidas,direct,True,False,Fresca,fresca,complemento,fresca,ok,,1,130,Bebidas
+Coca-Cola Light,complemento,112.0,Bebidas,direct,True,False,Coca-Cola Light,coca-cola light,complemento,coca-cola light,ok,,1,131,Bebidas
+Combo de Chilaquiles,base,110.0,Combos,direct,True,False,Combo de Chilaquiles,combo de chilaquiles,base,combo de chilaquiles,ok,,1,132,Combos
+Combo Volador,base,103.0,Combos,direct,True,False,Combo Volador,combo volador,base,combo volador,ok,,1,133,Combos
+Paloma,base,96.0,Bebidas Alcohólicas,direct,True,False,Paloma,paloma,base,paloma,ok,,1,134,Bebidas Alcohólicas
+Tarro Clamato,complemento,94.0,Modificadores,direct,True,False,Tarro Clamato,tarro clamato,complemento,tarro clamato,ok,,1,135,Modificadores
+México,complemento,92.0,Contar como Paquete México,count_as,True,True,Paquete México,mexico,complemento,paquete mexico,ok,,1,136,Contar como Paquete México
+Pepinillos,complemento,92.0,Complementos,direct,True,False,Pepinillos,pepinillos,complemento,pepinillos,ok,,1,137,Complementos
+Cerveza,complemento,90.0,Contar como Cerveza Botella,count_as,True,True,Cerveza Botella,cerveza,complemento,cerveza botella,ok,,1,139,Contar como Cerveza Botella
+Cheese Burger,base,90.0,Alimentos,direct,True,False,Cheese Burger,cheese burger,base,cheese burger,ok,,1,140,Alimentos
+Mojitos,base,90.0,Bebidas Alcohólicas,direct,True,False,Mojitos,mojitos,base,mojitos,ok,,1,138,Bebidas Alcohólicas
+Jueves de Alitas 25x269,base,87.0,Combos,direct,True,False,Jueves de Alitas 25x269,jueves de alitas 25x269,base,jueves de alitas 25x269,ok,,1,142,Combos
+Sandwich Crispier Individual,base,87.0,Alimentos,direct,True,False,Sandwich Crispier Individual,sandwich crispier individual,base,sandwich crispier individual,ok,,1,143,Alimentos
+Tarro Cubano,complemento,87.0,Modificadores,direct,True,False,Tarro Cubano,tarro cubano,complemento,tarro cubano,ok,,1,141,Modificadores
+Grandes,complemento,83.0,Modificadores,direct,True,False,Grandes,grandes,complemento,grandes,ok,,1,144,Modificadores
+Papas W,base,82.0,Complementos,direct,True,False,Papas W,papas w,base,papas w,ok,,1,145,Complementos
+Ranch,complemento,81.0,Modificadores,direct,True,False,Ranch,ranch,complemento,ranch,ok,,1,146,Modificadores
+Agua de Sabor Embotellada,base,79.0,No contar,exclude,False,False,Agua de Sabor Embotellada,agua de sabor embotellada,base,agua de sabor embotellada,ok,,1,147,No contar
+Refresco en Lata,base,77.0,No contar,exclude,False,False,Refresco en Lata,refresco en lata,base,refresco en lata,ok,,1,148,No contar
+Margaritas,base,76.0,Bebidas Alcohólicas,direct,True,False,Margaritas,margaritas,base,margaritas,ok,,1,149,Bebidas Alcohólicas
+Refresco,base,75.0,No contar,exclude,False,False,Refresco,refresco,base,refresco,ok,,1,150,No contar
+Coca Regular,complemento,74.0,Contar como Coca-Cola Regular,count_as,True,True,Coca-Cola Regular,coca regular,complemento,coca-cola regular,ok,,1,151,Contar como Coca-Cola Regular
+Crispier Sauce,base,69.0,Modificadores,direct,True,False,Crispier Sauce,crispier sauce,base,crispier sauce,ok,,1,153,Modificadores
+Burrita de Cajeta,base,68.0,Postre,direct,True,False,Burrita de Cajeta,burrita de cajeta,base,burrita de cajeta,ok,,1,154,Postre
+Con cebolla caramelizada,complemento,67.0,Modificadores,direct,True,False,Con cebolla caramelizada,con cebolla caramelizada,complemento,con cebolla caramelizada,ok,,1,155,Modificadores
+Si Jalapeños,complemento,65.0,Modificadores,direct,True,False,Si Jalapeños,si jalapenos,complemento,si jalapenos,ok,,1,156,Modificadores
+Guacamolito,complemento,63.0,contar como Guacamolito,count_as,True,True,Guacamolito,guacamolito,complemento,guacamolito,ok,,1,157,contar como Guacamolito
+Combo Sandwich CRISPIER,base,62.0,Combos,direct,True,False,Combo Sandwich CRISPIER,combo sandwich crispier,base,combo sandwich crispier,ok,,1,158,Combos
+BurriCombo de Asada,base,61.0,Combos,direct,True,False,BurriCombo de Asada,burricombo de asada,base,burricombo de asada,ok,,1,159,Combos
+Buffalo,base,58.0,Contar como Buffalo,count_as,True,True,Buffalo,buffalo,base,buffalo,ok,,1,162,Contar como Buffalo
+Chicken Sandwich,base,58.0,Alimentos,direct,True,False,Chicken Sandwich,chicken sandwich,base,chicken sandwich,ok,,1,161,Alimentos
+Combo Flautas 15 piezas,base,58.0,Combos,direct,True,False,Combo Flautas 15 piezas,combo flautas 15 piezas,base,combo flautas 15 piezas,ok,,1,160,Combos
+Asada,complemento,56.0,Contar como Burrito de Asada,count_as,True,True,Burrito de Asada,asada,complemento,burrito de asada,ok,,1,163,Contar como Burrito de Asada
+Dedos De Nutella,base,54.0,Complementos,direct,True,False,Dedos De Nutella,dedos de nutella,base,dedos de nutella,ok,,1,165,Complementos
+Extra Ranch,base,54.0,Extras,direct,True,False,Extra Ranch,extra ranch,base,extra ranch,ok,,1,166,Extras
+Plato de Chilaquiles,base,54.0,Alimentos,direct,True,False,Plato de Chilaquiles,plato de chilaquiles,base,plato de chilaquiles,ok,,1,164,Alimentos
+Blue Cheese,complemento,51.0,Contar Blue Cheese,count_as,True,True,Blue Cheese,blue cheese,complemento,blue cheese,ok,,1,167,Contar Blue Cheese
+Alitas 20 Piezas,base,48.0,Alimentos,direct,True,False,Alitas 20 Piezas,alitas 20 piezas,base,alitas 20 piezas,ok,,1,170,Alimentos
+Promo Burrote + Guacamole,base,48.0,Combos,direct,True,False,Promo Burrote + Guacamole,promo burrote guacamole,base,promo burrote guacamole,ok,,1,168,Combos
+Tequeños,base,48.0,Complementos,direct,True,False,Tequeños,tequenos,base,tequenos,ok,,1,169,Complementos
+Chilangazo,complemento,47.0,Contar como Burrito Chilangazo,count_as,True,True,Burrito Chilangazo,chilangazo,complemento,burrito chilangazo,ok,,1,171,Contar como Burrito Chilangazo
+Honey Mustard,base,44.0,Complementos,direct,True,False,Honey Mustard,honey mustard,base,honey mustard,ok,,1,172,Complementos
+Boneless 20 Piezas,base,42.0,Alimentos,direct,True,False,Boneless 20 Piezas,boneless 20 piezas,base,boneless 20 piezas,ok,,1,173,Alimentos
+Santi,complemento,42.0,Contar como Burrito Santi,count_as,True,True,Burrito Santi,santi,complemento,burrito santi,ok,,1,174,Contar como Burrito Santi
+Ranch Original,base,41.0,Complementos,direct,True,False,Ranch Original,ranch original,base,ranch original,ok,,1,175,Complementos
+Promo Burrote + Burri Papas Chicas,base,40.0,Combos,direct,True,False,Promo Burrote + Burri Papas Chicas,promo burrote burri papas chicas,base,promo burrote burri papas chicas,ok,,1,176,Combos
+Sin cebolla caramelizada,complemento,38.0,Modificadores,direct,True,False,Sin cebolla caramelizada,sin cebolla caramelizada,complemento,sin cebolla caramelizada,ok,,1,177,Modificadores
+Coca Sin Azucar,complemento,37.0,Contar como Coca-Cola Sin Azucar,count_as,True,True,Coca-Cola Sin Azucar,coca sin azucar,complemento,coca-cola sin azucar,ok,,1,178,Contar como Coca-Cola Sin Azucar
+Agua de Horchata Artesanal,base,34.0,Contar como Agua de Horchata Embotellada,count_as,True,True,Agua de Horchata Embotellada,agua de horchata artesanal,base,agua de horchata embotellada,ok,,1,180,Contar como Agua de Horchata Embotellada
+Extra Queso,complemento,34.0,Contar como Extra Queso,count_as,True,True,Extra Queso,extra queso,complemento,extra queso,ok,,1,179,Contar como Extra Queso
+Fanta,complemento,33.0,Bebidas,direct,True,False,Fanta,fanta,complemento,fanta,ok,,1,182,Bebidas
+Norteño NY,complemento,33.0,Contar como Burrito Norteño New York,count_as,True,True,Burrito Norteño New York,norteno ny,complemento,burrito norteno new york,ok,,1,181,Contar como Burrito Norteño New York
+Bbq Original,base,29.0,Contar como BBQ,count_as,True,True,BBQ,bbq original,base,bbq,ok,,1,184,Contar como BBQ
+Extra Blue Cheese,base,29.0,Extras,direct,True,False,Extra Blue Cheese,extra blue cheese,base,extra blue cheese,ok,,1,183,Extras
+Agua Embotellada,base,27.0,No contar,exclude,False,False,Agua Embotellada,agua embotellada,base,agua embotellada,ok,,1,186,No contar
+De Autor,base,27.0,Bebidas Alcohólicas,direct,True,False,De Autor,de autor,base,de autor,ok,,1,187,Bebidas Alcohólicas
+Doble porción de papas,complemento,27.0,Extras,direct,True,False,Doble porción de papas,doble porcion de papas,complemento,doble porcion de papas,ok,,1,185,Extras
+Coleslaw,base,26.0,Contar como Coleslaw,count_as,True,True,Coleslaw,coleslaw,base,coleslaw,ok,,1,188,Contar como Coleslaw
+Caipirinha,base,25.0,Bebidas Alcohólicas,direct,True,False,Caipirinha,caipirinha,base,caipirinha,ok,,1,191,Bebidas Alcohólicas
+Combo Para Dos,base,25.0,Combos,direct,True,False,Combo Para Dos,combo para dos,base,combo para dos,ok,,1,190,Combos
+Elote,base,25.0,Complementos,direct,True,False,Elote,elote,base,elote,ok,,1,189,Complementos
+Malteada Oreo,base,25.0,Contar como Malteada Oreo,count_as,True,True,Malteada Oreo,malteada oreo,base,malteada oreo,ok,,1,192,Contar como Malteada Oreo
+Cerveza,base,24.0,Contar como Cerveza Botella,count_as,True,True,Cerveza Botella,cerveza,base,cerveza botella,ok,,1,194,Contar como Cerveza Botella
+Sandwich Crispier,complemento,24.0,Contar como Sandwich Crispier Individual,count_as,True,True,Sandwich Crispier Individual,sandwich crispier,complemento,sandwich crispier individual,ok,,1,193,Contar como Sandwich Crispier Individual
+Aperol Spritz,base,23.0,Bebidas Alcohólicas,direct,True,False,Aperol Spritz,aperol spritz,base,aperol spritz,ok,,1,197,Bebidas Alcohólicas
+Blue Cheese,base,23.0,Modificadores,direct,True,False,Blue Cheese,blue cheese,base,blue cheese,ok,,1,196,Modificadores
+Extra Salsa México,base,23.0,Extras,direct,True,False,Extra Salsa México,extra salsa mexico,base,extra salsa mexico,ok,,1,198,Extras
+Gin & Tonics,base,23.0,Bebidas Alcohólicas,direct,True,False,Gin & Tonics,gin tonics,base,gin tonics,ok,,1,195,Bebidas Alcohólicas
+Refrescos ¡Bien Fríos!,base,23.0,No contar,exclude,False,False,Refrescos ¡Bien Fríos!,refrescos bien frios,base,refrescos bien frios,ok,,1,199,No contar
+Agua Jaimaica,complemento,22.0,Contar como Agua Jamaica Embotellada,count_as,True,True,Agua Jamaica Embotellada,agua jaimaica,complemento,agua jamaica embotellada,ok,,1,202,Contar como Agua Jamaica Embotellada
+Extra Bufalo,base,22.0,Extras,direct,True,False,Extra Bufalo,extra bufalo,base,extra bufalo,ok,,1,203,Extras
+Extra Tocino,base,22.0,Extras,direct,True,False,Extra Tocino,extra tocino,base,extra tocino,ok,,1,204,Extras
+Huevo,complemento,22.0,Complementos,direct,True,False,Huevo,huevo,complemento,huevo,ok,,1,201,Complementos
+Malteada Vainilla,base,21.0,Contar como Malteada Vainilla,count_as,True,True,Malteada Vainilla,malteada vainilla,base,malteada vainilla,ok,,1,206,Contar como Malteada Vainilla
+Tocino,complemento,21.0,Complementos,direct,True,False,Tocino,tocino,complemento,tocino,ok,,1,205,Complementos
+Cantarito,base,20.0,Bebidas Alcohólicas,direct,True,False,Cantarito,cantarito,base,cantarito,ok,,1,207,Bebidas Alcohólicas
+Mega Buffalon,base,20.0,Alimentos,direct,True,False,Mega Buffalon,mega buffalon,base,mega buffalon,ok,,1,208,Alimentos
+Aros de Cebolla,complemento,19.0,Contar como Aros de Cebolla,count_as,True,True,Aros de Cebolla,aros de cebolla,complemento,aros de cebolla,ok,,1,211,Contar como Aros de Cebolla
+Malteada Vainilla,complemento,19.0,Bebidas,direct,True,False,Malteada Vainilla,malteada vainilla,complemento,malteada vainilla,ok,,1,209,Bebidas
+Agua de Horchata,complemento,18.0,Contar como Agua de Horchata Embotellada,count_as,True,True,Agua de Horchata Embotellada,agua de horchata,complemento,agua de horchata embotellada,ok,,1,214,Contar como Agua de Horchata Embotellada
+Extra Mango Habanero,base,18.0,Extras,direct,True,False,Extra Mango Habanero,extra mango habanero,base,extra mango habanero,ok,,1,215,Extras
+Malteada Oreo,complemento,18.0,Bebidas,direct,True,False,Malteada Oreo,malteada oreo,complemento,malteada oreo,ok,,1,213,Bebidas
+Sandwich Clásico Individual,base,18.0,Alimentos,direct,True,False,Sandwich Clásico Individual,sandwich clasico individual,base,sandwich clasico individual,ok,,1,212,Alimentos
+Agua de Sabor,base,17.0,No contar,exclude,False,False,Agua de Sabor,agua de sabor,base,agua de sabor,ok,,1,218,No contar
+Negroni,base,17.0,Bebidas Alcohólicas,direct,True,False,Negroni,negroni,base,negroni,ok,,1,217,Bebidas Alcohólicas
+Spicy Boneless,complemento,17.0,Contar como Burrito Spicy Boneless,count_as,True,True,Burrito Spicy Boneless,spicy boneless,complemento,burrito spicy boneless,ok,,1,216,Contar como Burrito Spicy Boneless
+Delux Supremo,base,16.0,Alimentos,direct,True,False,Delux Supremo,delux supremo,base,delux supremo,ok,,1,219,Alimentos
+Extra BBQ,base,16.0,Extras,direct,True,False,Extra BBQ,extra bbq,base,extra bbq,ok,,1,222,Extras
+Extra Crema,base,16.0,Extras,direct,True,False,Extra Crema,extra crema,base,extra crema,ok,,1,221,Extras
+Malteada Nutella,base,16.0,Contar como Malteada Nutella,count_as,True,True,Malteada Nutella,malteada nutella,base,malteada nutella,ok,,1,220,Contar como Malteada Nutella
+Agua de Jamaica Natural,base,15.0,Contar como Agua Jamaica Embotellada,count_as,True,True,Agua Jamaica Embotellada,agua de jamaica natural,base,agua jamaica embotellada,ok,,1,225,Contar como Agua Jamaica Embotellada
+BurriCombo Santi,base,15.0,Combos,direct,True,False,BurriCombo Santi,burricombo santi,base,burricombo santi,ok,,1,226,Combos
+Coca Light,complemento,15.0,Contar como Coca-Cola Light,count_as,True,True,Coca-Cola Light,coca light,complemento,coca-cola light,ok,,1,224,Contar como Coca-Cola Light
+Jalapeño Individual,base,14.0,Complementos,direct,True,False,Jalapeño Individual,jalapeno individual,base,jalapeno individual,ok,,1,228,Complementos
+Sin Crema,complemento,14.0,Modificadores,direct,True,False,Sin Crema,sin crema,complemento,sin crema,ok,,1,227,Modificadores
+BurriCombo Chilangazo,base,13.0,Combos,direct,True,False,BurriCombo Chilangazo,burricombo chilangazo,base,burricombo chilangazo,ok,,1,230,Combos
+Coleslaw,complemento,13.0,Complementos,direct,True,False,Coleslaw,coleslaw,complemento,coleslaw,ok,,1,229,Complementos
+Agua mineral,base,12.0,Contar como Agua Mineral,count_as,True,True,Agua Mineral,agua mineral,base,agua mineral,ok,,2,"232,248",Contar como Agua Mineral
+Dr. Pepper,base,12.0,Bebidas,direct,True,False,Dr. Pepper,dr pepper,base,dr pepper,ok,,1,234,Bebidas
+Malteada Nutella,complemento,12.0,Bebidas,direct,True,False,Malteada Nutella,malteada nutella,complemento,malteada nutella,ok,,1,235,Bebidas
+Sandwich Clásico,complemento,12.0,Contar como Sandwich Clásico Individual,count_as,True,True,Sandwich Clásico Individual,sandwich clasico,complemento,sandwich clasico individual,ok,,1,231,Contar como Sandwich Clásico Individual
+Té de Limón,complemento,12.0,Bebidas,direct,True,False,Té de Limón,te de limon,complemento,te de limon,ok,,1,233,Bebidas
+Alitas 10,complemento,11.0,Contar Alitas 10 Piezas,count_as,True,True,Alitas 10 Piezas,alitas 10,complemento,alitas 10 piezas,ok,,1,238,Contar Alitas 10 Piezas
+Manzanita,base,11.0,Contar como Manzanita,count_as,True,True,Manzanita,manzanita,base,manzanita,ok,,1,236,Contar como Manzanita
+Papas con Queso CRSP,base,11.0,Complementos,direct,True,False,Papas con Queso CRSP,papas con queso crsp,base,papas con queso crsp,ok,,1,237,Complementos
+Piña Colada,base,10.0,Bebidas,direct,True,False,Piña Colada,pina colada,base,pina colada,ok,,1,240,Bebidas
+Waldo's Cheesy Fries,base,10.0,Complementos,direct,True,False,Waldo's Cheesy Fries,waldo s cheesy fries,base,waldo s cheesy fries,ok,,1,239,Complementos
+Extras Tarro,base,9.0,Extras,direct,True,False,Extras Tarro,extras tarro,base,extras tarro,ok,,1,243,Extras
+Papas con Queso y Tocino CRSP,base,9.0,Complementos,direct,True,False,Papas con Queso y Tocino CRSP,papas con queso y tocino crsp,base,papas con queso y tocino crsp,ok,,1,241,Complementos
+Salsa de Cacahuate,complemento,9.0,Modificadores,direct,True,False,Salsa de Cacahuate,salsa de cacahuate,complemento,salsa de cacahuate,ok,,1,242,Modificadores
+7 up,base,8.0,Contar como 7UP!,count_as,True,True,7UP!,7 up,base,7up,ok,,1,246,Contar como 7UP!
+Combo Mini Burrito,base,8.0,Combos,direct,True,False,Combo Mini Burrito,combo mini burrito,base,combo mini burrito,ok,,1,247,Combos
+Sin Queso,complemento,8.0,Modificadores,direct,True,False,Sin Queso,sin queso,complemento,sin queso,ok,,1,245,Modificadores
+Extra Pollo,base,7.0,Extras,direct,True,False,Extra Pollo,extra pollo,base,extra pollo,ok,,1,251,Extras
+Extra Salsa Verde,base,7.0,Extras,direct,True,False,Extra Salsa Verde,extra salsa verde,base,extra salsa verde,ok,,1,252,Extras
+Sangría,base,7.0,Bebidas,direct,True,False,Sangría,sangria,base,sangria,ok,,1,253,Bebidas
+Squirt,base,7.0,Contar como Squirt,count_as,True,True,Squirt,squirt,base,squirt,ok,,1,250,Contar como Squirt
+Burrito de Asada (Delivery Miyana),base,6.0,Contar como Burrito de Asada,count_as,True,True,Burrito de Asada,burrito de asada delivery miyana,base,burrito de asada,ok,,1,254,Contar como Burrito de Asada
+Mezcalita 3x2,base,6.0,Combos,direct,True,False,Mezcalita 3x2,mezcalita 3x2,base,mezcalita 3x2,ok,,1,256,Combos
+Pepsi,base,6.0,Contar como PEPSI,count_as,True,True,PEPSI,pepsi,base,pepsi,ok,,1,255,Contar como PEPSI
+Coca-cola Sin Azúcar,base,5.0,Contar como Coca-Cola Sin Azucar,count_as,True,True,Coca-Cola Sin Azucar,coca-cola sin azucar,base,coca-cola sin azucar,ok,,1,259,Contar como Coca-Cola Sin Azucar
+Extra Arrachera,base,5.0,Extras,direct,True,False,Extra Arrachera,extra arrachera,base,extra arrachera,ok,,1,257,Extras
+Extra Huevo,base,5.0,Extras,direct,True,False,Extra Huevo,extra huevo,base,extra huevo,ok,,1,258,Extras
+Extra Tocino,complemento,5.0,Extras,direct,True,False,Extra Tocino,extra tocino,complemento,extra tocino,ok,,1,260,Extras
+Margaritas 3x2,base,5.0,Combos,direct,True,False,Margaritas 3x2,margaritas 3x2,base,margaritas 3x2,ok,,1,261,Combos
+Mini Burrito,base,5.0,Contar como Combo Mini Burrito,count_as,True,True,Combo Mini Burrito,mini burrito,base,combo mini burrito,ok,,1,262,Contar como Combo Mini Burrito
+BurriCombo (Delivery Miyana),base,4.0,Contar como BurriCombo,count_as,True,True,BurriCombo,burricombo delivery miyana,base,burricombo,ok,,1,265,Contar como BurriCombo
+Extra Clamato,base,4.0,Extras,direct,True,False,Extra Clamato,extra clamato,base,extra clamato,ok,,1,266,Extras
+Extra Jalapeños,complemento,4.0,Extras,direct,True,False,Extra Jalapeños,extra jalapenos,complemento,extra jalapenos,ok,,1,263,Extras
+Frozen Margaritas,base,4.0,Bebidas,direct,True,False,Frozen Margaritas,frozen margaritas,base,frozen margaritas,ok,,1,267,Bebidas
+Gin & Tonic 3x2,base,4.0,Combos,direct,True,False,Gin & Tonic 3x2,gin tonic 3x2,base,gin tonic 3x2,ok,,1,264,Combos
+Burrito Norteño (Delivery Miyana),base,3.0,Contar como Burrito Norteño New York,count_as,True,True,Burrito Norteño New York,burrito norteno delivery miyana,base,burrito norteno new york,ok,,1,270,Contar como Burrito Norteño New York
+Extra Chicharron,base,3.0,Extras,direct,True,False,Extra Chicharron,extra chicharron,base,extra chicharron,ok,,1,271,Extras
+Mini Burrito Norteño New York (Delivery Miyana),base,3.0,Contar como Mini Burrito Norteño New York,count_as,True,True,Mini Burrito Norteño New York,mini burrito norteno new york delivery miyana,base,mini burrito norteno new york,ok,,1,272,Contar como Mini Burrito Norteño New York
+Refresco (Delivery Miyana),base,3.0,No contar,exclude,False,False,Refresco (Delivery Miyana),refresco delivery miyana,base,refresco delivery miyana,ok,,1,268,No contar
+Burrito Santi (Delivery Miyana),base,2.0,Contar como Burrito Santi,count_as,True,True,Burrito Santi,burrito santi delivery miyana,base,burrito santi,ok,,1,275,Contar como Burrito Santi
+Coca-cola Regular,base,2.0,Contar como Coca-Cola Regular,count_as,True,True,Coca-Cola Regular,coca-cola regular,base,coca-cola regular,ok,,1,277,Contar como Coca-Cola Regular
+Extra BBQ (Delivery Miyana),base,2.0,contar como Extra BBQ,count_as,True,True,Extra BBQ,extra bbq delivery miyana,base,extra bbq,ok,,1,276,contar como Extra BBQ
+Mirinda,base,2.0,Bebidas,direct,True,False,Mirinda,mirinda,base,mirinda,ok,,1,274,Bebidas
+Queso Fundido,base,2.0,Modificadores,direct,True,False,Queso Fundido,queso fundido,base,queso fundido,ok,,1,273,Modificadores
+Agua Ciel,base,1.0,Contar como Agua Ciel,count_as,True,True,Agua Ciel,agua ciel,base,agua ciel,ok,,1,289,Contar como Agua Ciel
+BurriCombo Desayuno,base,1.0,Combos,direct,True,False,BurriCombo Desayuno,burricombo desayuno,base,burricombo desayuno,ok,,1,286,Combos
+BurriPapas Chicas (Delivery Miyana),base,1.0,Complementos,direct,True,False,BurriPapas Chicas (Delivery Miyana),burripapas chicas delivery miyana,base,burripapas chicas delivery miyana,ok,,1,285,Complementos
+BurriPapas Grandes (Delivery Miyana),base,1.0,Contar como BurriPapas Grandes,count_as,True,True,BurriPapas Grandes,burripapas grandes delivery miyana,base,burripapas grandes,ok,,1,284,Contar como BurriPapas Grandes
+Combo 60 Flautas Salseadas,base,1.0,Combos,direct,True,False,Combo 60 Flautas Salseadas,combo 60 flautas salseadas,base,combo 60 flautas salseadas,ok,,1,280,Combos
+Extra Blue Cheese (Delivery Miyana),base,1.0,Contar como Extra Blue Cheese,count_as,True,True,Extra Blue Cheese,extra blue cheese delivery miyana,base,extra blue cheese,ok,,1,278,Contar como Extra Blue Cheese
+Extra Salsa Mexico (Delivery Miyana),base,1.0,Extras,direct,True,False,Extra Salsa Mexico (Delivery Miyana),extra salsa mexico delivery miyana,base,extra salsa mexico delivery miyana,ok,,1,282,Extras
+Extra Salsa Morita,base,1.0,Extras,direct,True,False,Extra Salsa Morita,extra salsa morita,base,extra salsa morita,ok,,1,283,Extras
+Fishy,base,1.0,Alimentos,direct,True,False,Fishy,fishy,base,fishy,ok,,1,281,Alimentos
+Mini Burrito Spicy Boneless (Delivery Miyana),base,1.0,Contar como Mini Burrito Spicy Boneless,count_as,True,True,Mini Burrito Spicy Boneless,mini burrito spicy boneless delivery miyana,base,mini burrito spicy boneless,ok,,1,279,Contar como Mini Burrito Spicy Boneless
+PEPSI Light,complemento,1.0,Bebidas,direct,True,False,PEPSI Light,pepsi light,complemento,pepsi light,ok,,1,287,Bebidas
+Paquete México,base,1.0,Combos,direct,True,False,Paquete México,paquete mexico,base,paquete mexico,ok,,1,288,Combos
+Waldo's Secret Sauce,base,1.0,Complementos,direct,True,False,Waldo's Secret Sauce,waldo s secret sauce,base,waldo s secret sauce,ok,,1,290,Complementos
+10 Alitas + Cerveza,base,0.0,Combos,direct,True,False,10 Alitas + Cerveza,10 alitas cerveza,base,10 alitas cerveza,ok,,1,322,Combos
+Agua Tamarindo,complemento,0.0,Contar como Agua de Tamarindo Embotellada,count_as,True,True,Agua de Tamarindo Embotellada,agua tamarindo,complemento,agua de tamarindo embotellada,ok,,1,297,Contar como Agua de Tamarindo Embotellada
+Agua de Horchata Los Colorines,base,0.0,Bebidas,direct,True,False,Agua de Horchata Los Colorines,agua de horchata los colorines,base,agua de horchata los colorines,ok,,1,304,Bebidas
+Agua de Jamaica,base,0.0,Contar como Agua Jamaica Embotellada,count_as,True,True,Agua Jamaica Embotellada,agua de jamaica,base,agua jamaica embotellada,ok,,1,291,Contar como Agua Jamaica Embotellada
+Agua de Jamaica,complemento,0.0,Contar como Agua Jamaica Embotellada,count_as,True,True,Agua Jamaica Embotellada,agua de jamaica,complemento,agua jamaica embotellada,ok,,1,298,Contar como Agua Jamaica Embotellada
+Agua de Jamaica Los Colorines,base,0.0,Bebidas,direct,True,False,Agua de Jamaica Los Colorines,agua de jamaica los colorines,base,agua de jamaica los colorines,ok,,1,305,Bebidas
+Agua de Tamarindo Los Colorines,base,0.0,Bebidas,direct,True,False,Agua de Tamarindo Los Colorines,agua de tamarindo los colorines,base,agua de tamarindo los colorines,ok,,1,306,Bebidas
+Agua mineral R,base,0.0,Contar como Agua Mineral,count_as,True,True,Agua Mineral,agua mineral r,base,agua mineral,ok,,1,314,Contar como Agua Mineral
+BBQ r,complemento,0.0,Contar como BBQ,count_as,True,True,BBQ,bbq r,complemento,bbq,ok,,1,316,Contar como BBQ
+Blue Cheese R,complemento,0.0,Contar como Blue Cheese,count_as,True,True,Blue Cheese,blue cheese r,complemento,blue cheese,ok,,1,317,Contar como Blue Cheese
+Buffalo R,complemento,0.0,Contar como Buffalo,count_as,True,True,Buffalo,buffalo r,complemento,buffalo,ok,,1,318,Contar como Buffalo
+Burrito Chilangazo Combo,base,0.0,Combos,direct,True,False,Burrito Chilangazo Combo,burrito chilangazo combo,base,burrito chilangazo combo,ok,,1,292,Combos
+Burrito Norteño New York Combo,base,0.0,Combos,direct,True,False,Burrito Norteño New York Combo,burrito norteno new york combo,base,burrito norteno new york combo,ok,,1,293,Combos
+Burrito Santi Combo,base,0.0,Combos,direct,True,False,Burrito Santi Combo,burrito santi combo,base,burrito santi combo,ok,,1,294,Combos
+Burrito Spicy Boneless Combo,base,0.0,Combos,direct,True,False,Burrito Spicy Boneless Combo,burrito spicy boneless combo,base,burrito spicy boneless combo,ok,,1,295,Combos
+Burrito de Asada Combo,base,0.0,Combos,direct,True,False,Burrito de Asada Combo,burrito de asada combo,base,burrito de asada combo,ok,,1,296,Combos
+Cerveza R,complemento,0.0,Contar como Cerveza Botella,count_as,True,True,Cerveza Botella,cerveza r,complemento,cerveza botella,ok,,1,319,Contar como Cerveza Botella
+Coca - Cola,base,0.0,Contar como Coca-Cola Regular,count_as,True,True,Coca-Cola Regular,coca - cola,base,coca-cola regular,ok,,1,312,Contar como Coca-Cola Regular
+Coca - Cola sin Azúcar,base,0.0,Contar como Coca-Cola Sin Azucar,count_as,True,True,Coca-Cola Sin Azucar,coca - cola sin azucar,base,coca-cola sin azucar,ok,,1,313,Contar como Coca-Cola Sin Azucar
+Combo 3 flautas de queso y bebida,base,0.0,Combos,direct,True,False,Combo 3 flautas de queso y bebida,combo 3 flautas de queso y bebida,base,combo 3 flautas de queso y bebida,ok,,1,326,Combos
+Combo 3 flautas de queso y bebida x2 ($-57.60),nan,0.0,Contar como Combo 3 flautas de queso y bebida,count_as,True,True,Combo 3 flautas de queso y bebida,combo 3 flautas de queso y bebida x2 -57 60,nan,combo 3 flautas de queso y bebida,ok,,1,327,Contar como Combo 3 flautas de queso y bebida
+Combo Chicharrón,base,0.0,Combos,direct,True,False,Combo Chicharrón,combo chicharron,base,combo chicharron,ok,,1,323,Combos
+Combo Chori,base,0.0,Combos,direct,True,False,Combo Chori,combo chori,base,combo chori,ok,,1,307,Combos
+Combo Flautas + Quesadillota x2 ($-121.04),nan,0.0,Contar como Combo Flautas + Quesadillota x2 ($-121.04),count_as,True,True,Combo Flautas + Quesadillota x2 ($-121.04),combo flautas quesadillota x2 -121 04,nan,combo flautas quesadillota x2 -121 04,ok,,1,328,Contar como Combo Flautas + Quesadillota x2 ($-121.04)
+Combo Queso,base,0.0,Combos,direct,True,False,Combo Queso,combo queso,base,combo queso,ok,,1,308,Combos
+Corona,complemento,0.0,Bebidas Alcohólicas,direct,True,False,Corona,corona,complemento,corona,ok,,1,299,Bebidas Alcohólicas
+Cuba,base,0.0,Bebidas Alcohólicas,direct,True,False,Cuba,cuba,base,cuba,ok,,1,325,Bebidas Alcohólicas
+Elote R,complemento,0.0,Contar como Elote,count_as,True,True,Elote,elote r,complemento,elote,ok,,1,320,Contar como Elote
+Extra Queso R,complemento,0.0,Contar como Extra Queso,count_as,True,True,Extra Queso,extra queso r,complemento,extra queso,ok,,1,321,Contar como Extra Queso
+Extra Salsa Roja,base,0.0,Extras,direct,True,False,Extra Salsa Roja,extra salsa roja,base,extra salsa roja,ok,,1,324,Extras
+Modelo Especial,complemento,0.0,Bebidas Alcohólicas,direct,True,False,Modelo Especial,modelo especial,complemento,modelo especial,ok,,1,300,Bebidas Alcohólicas
+Negro Modelo,complemento,0.0,Bebidas Alcohólicas,direct,True,False,Negro Modelo,negro modelo,complemento,negro modelo,ok,,1,301,Bebidas Alcohólicas
+Quesadilla Chicharrón Prensado,base,0.0,Alimentos,direct,True,False,Quesadilla Chicharrón Prensado,quesadilla chicharron prensado,base,quesadilla chicharron prensado,ok,,1,309,Alimentos
+Quesadilla Chorizo,base,0.0,Alimentos,direct,True,False,Quesadilla Chorizo,quesadilla chorizo,base,quesadilla chorizo,ok,,1,310,Alimentos
+Quesadilla Simple,base,0.0,Alimentos,direct,True,False,Quesadilla Simple,quesadilla simple,base,quesadilla simple,ok,,1,311,Alimentos
+Stella,complemento,0.0,Bebidas,direct,True,False,Stella,stella,complemento,stella,ok,,1,303,Bebidas
+Tequeños E,base,0.0,Contar como Tequeños,count_as,True,True,Tequeños,tequenos e,base,tequenos,ok,,1,315,Contar como Tequeños
+Victoria,complemento,0.0,Bebidas Alcohólicas,direct,True,False,Victoria,victoria,complemento,victoria,ok,,1,302,Bebidas Alcohólicas
+Queso,complemento,2484.0,Contar como Flauta de Queso,count_as,True,True,Flauta de Queso,queso,complemento,flauta de queso,review,duplicate_conflict,2,"9,249",Contar como Flauta de Queso | Extras
+Aros de Cebolla,base,71.0,Complementos,direct,True,True,Aros de Cebolla,aros de cebolla,base,aros de cebolla,review,duplicate_conflict,2,"152,269",Complementos | Contar como Aros de Cebolla
+Queso y Tocino,complemento,22.0,Modificadores,direct,True,False,Queso y Tocino,queso y tocino,complemento,queso y tocino,review,duplicate_conflict,2,"200,244",Modificadores | Extras

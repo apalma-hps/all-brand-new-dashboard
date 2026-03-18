@@ -4,11 +4,14 @@ import pandas as pd
 import streamlit as st
 import altair as alt
 from datetime import datetime, timedelta
+from pathlib import Path
 import re
 import unicodedata
 import json
 import urllib.request
 import matplotlib  # (lo dejas si lo usas en otra parte)
+
+from catalog_engine import compile_catalog
 
 
 # =========================================================
@@ -320,6 +323,8 @@ st.markdown("---")
 DATA_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSLIeswEs8OILxZmVMwObbli0Zpbbqx7g7h6ZC5Fwm0PCjlZEFy66L9Xpha6ROW3loFCIRiWvEnLRHS/pub?output=csv"
 CATALOGO_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQtKQGyCaerGAedhlpzaXlr-ycmm1t08a6lUtg-_3f7yWtJhLkQ6vn0TlI89l0FGVxOUy1Cwj5ykliB/pub?output=csv"
 APPSCRIPT_URL = st.secrets.get("APPSCRIPT_URL", "").strip()
+BASE_DIR = Path(__file__).resolve().parents[1]
+CATALOGO_OPERATIVO_PATH = BASE_DIR / "data" / "catalogo_operativo.csv"
 
 COL_CC = "Restaurante"
 COL_ESTADO = "Estado"
@@ -529,31 +534,79 @@ def parse_detalle_items_base_y_complementos_precio(texto: str):
 
 @st.cache_data(ttl=600)
 def load_catalogo_conceptos():
-    try:
-        cat = pd.read_csv(CATALOGO_URL)
-    except Exception as e:
-        st.warning(f"No se pudo cargar el catálogo: {e}")
+    if CATALOGO_OPERATIVO_PATH.exists():
+        try:
+            cat = pd.read_csv(CATALOGO_OPERATIVO_PATH)
+        except Exception as exc:
+            st.warning(f"No se pudo leer el catálogo operativo local: {exc}")
+            cat = None
+    else:
+        cat = None
+
+    if cat is None:
+        try:
+            raw_catalog = pd.read_csv(CATALOGO_URL)
+            cat, _ = compile_catalog(raw_catalog)
+        except Exception as exc:
+            st.warning(f"No se pudo cargar el catálogo: {exc}")
+            return None
+
+    cat = cat.copy()
+    cat.columns = [str(c).strip() for c in cat.columns]
+
+    required = {"concepto", "tipo_concepto", "Categoria_raw", "concepto_key", "tipo_concepto_key", "canon_key"}
+    if not required.issubset(set(cat.columns)):
+        st.warning("El catálogo compilado no tiene las columnas esperadas para mix.")
         return None
 
-    cat.columns = [c.strip() for c in cat.columns]
-    required = {"concepto", "tipo_concepto", "Categoria"}
-    if not required.issubset(set(cat.columns)):
-        st.warning("El catálogo debe tener columnas: concepto, tipo_concepto, Categoria.")
-        return None
+    if "compile_status" in cat.columns:
+        cat = cat[cat["compile_status"].eq("ok")].copy()
 
     cat["concepto"] = cat["concepto"].astype(str).str.strip()
     cat["tipo_concepto"] = cat["tipo_concepto"].astype(str).str.strip().str.lower()
-    cat["Categoria_raw"] = cat["Categoria"].astype(str).str.strip()
+    cat["concepto_canonico"] = cat["concepto_canonico"].astype(str).str.strip()
+    cat["concepto_key"] = cat["concepto_key"].astype(str).str.strip()
+    cat["tipo_concepto_key"] = cat["tipo_concepto_key"].astype(str).str.strip()
+    cat["canon_key"] = cat["canon_key"].astype(str).str.strip()
+    cat["Categoria_raw"] = cat["Categoria_raw"].astype(str).str.strip()
+    cat["rule_action"] = cat.get("rule_action", "direct").astype(str).str.strip().str.lower()
+    cat["include_in_count"] = cat.get("include_in_count", True).fillna(True).astype(bool)
 
-    is_instr = cat["Categoria_raw"].str.match(r"(?i)^\s*contar\s+")
-    m = cat["Categoria_raw"].str.extract(r"(?i)^\s*contar\s*(?:como\s+)?(.+?)\s*$")
+    direct_rows = cat[
+        cat["include_in_count"]
+        & cat["rule_action"].eq("direct")
+        & cat["canon_key"].ne("")
+        & cat["Categoria_raw"].ne("")
+    ].copy()
 
-    cat["concepto_canonico"] = np.where(is_instr, m[0].str.strip(), cat["concepto"])
-    cat["Clasificación"] = np.where(is_instr, "REMAP", cat["Categoria_raw"])
+    category_by_canonical_and_type = (
+        direct_rows.sort_values(["concepto_canonico", "tipo_concepto", "concepto"])
+        .drop_duplicates(["canon_key", "tipo_concepto_key"])
+        .set_index(["canon_key", "tipo_concepto_key"])["Categoria_raw"]
+        .to_dict()
+    )
+    category_by_canonical = (
+        direct_rows.sort_values(["concepto_canonico", "tipo_concepto", "concepto"])
+        .drop_duplicates(["canon_key"])
+        .set_index("canon_key")["Categoria_raw"]
+        .to_dict()
+    )
 
-    cat["concepto_key"] = cat["concepto_canonico"].map(norm_key)
-    cat["categoria_mix"] = cat["Categoria_raw"].astype(str).str.strip()
+    def resolve_mix_category(row):
+        if not bool(row.get("include_in_count", True)):
+            return ""
 
+        category = category_by_canonical_and_type.get(
+            (row.get("canon_key", ""), row.get("tipo_concepto_key", "")),
+            category_by_canonical.get(row.get("canon_key", ""), row.get("Categoria_raw", "")),
+        )
+
+        category = str(category or "").strip()
+        if not category or norm_key(category) == "no contar":
+            return ""
+        return category
+
+    cat["categoria_mix"] = cat.apply(resolve_mix_category, axis=1)
     return cat
 
 
@@ -576,19 +629,17 @@ def calcular_mix_ventas_dinero(df_periodo: pd.DataFrame, catalogo: pd.DataFrame)
 
     flat = pd.DataFrame(regs)
     flat["item_key"] = flat["item"].map(norm_key)
+    flat["tipo_concepto_key"] = flat["tipo_concepto"].map(norm_key)
 
     j = flat.merge(
-        catalogo,
-        left_on="item_key",
-        right_on="concepto_key",
+        catalogo[["concepto_key", "tipo_concepto_key", "include_in_count", "concepto_canonico", "categoria_mix"]],
+        left_on=["item_key", "tipo_concepto_key"],
+        right_on=["concepto_key", "tipo_concepto_key"],
         how="left",
         suffixes=("", "_cat"),
     )
 
-    j = j[j["concepto"].notna()].copy()
-
-    clas = j["Clasificación"].fillna("").astype(str).str.strip().str.lower()
-    j = j[(clas != "no contar") & (clas != "remap")].copy()
+    j = j[j["include_in_count"].fillna(False)].copy()
 
     j["precio_unitario"] = pd.to_numeric(j["precio_unitario"], errors="coerce")
     j = j[j["tipo_concepto"].astype(str).str.strip().str.lower().eq("base")].copy()
@@ -643,18 +694,16 @@ def calcular_composicion_promedio_orden(df_periodo, catalogo):
 
     flat = pd.DataFrame(all_items)
     flat["item_key"] = flat["item"].map(norm_key)
+    flat["tipo_concepto_key"] = flat["tipo_concepto"].map(norm_key)
 
     j = flat.merge(
-        catalogo,
-        left_on="item_key",
-        right_on="concepto_key",
+        catalogo[["concepto_key", "tipo_concepto_key", "include_in_count", "concepto_canonico", "categoria_mix"]],
+        left_on=["item_key", "tipo_concepto_key"],
+        right_on=["concepto_key", "tipo_concepto_key"],
         how="left",
         suffixes=("", "_cat"),
     )
-    j = j[j["concepto"].notna()].copy()
-
-    clas = j["Clasificación"].fillna("").astype(str).str.strip().str.lower()
-    j = j[(clas != "no contar") & (clas != "remap")].copy()
+    j = j[j["include_in_count"].fillna(False)].copy()
     j["categoria_mix"] = j["categoria_mix"].fillna("Sin categoría").astype(str).str.strip()
 
     j_base = j[j["tipo_concepto"].astype(str).str.strip().str.lower().eq("base")].copy()

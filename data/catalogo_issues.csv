@@ -1,0 +1,7 @@
+concepto,tipo_concepto,conteo_total,Categoria_raw,rule_action,include_in_count,es_remap,concepto_canonico,concepto_key,tipo_concepto_key,canon_key,compile_status,issue_reason,duplicate_count,source_rows,categoria_fuente_all
+Papa con Chorizo,complemento,550.0,Contar como Flauta de Papa con Chorizo,count_as,True,True,Flauta de Papa con Chorizo,papa con chorizo,complemento,flauta de papa con chorizo,ok,,2,"43,210",Contar como Flauta de Papa con Chorizo
+Bufalo,complemento,265.0,Contar como Buffalo,count_as,True,True,Buffalo,bufalo,complemento,buffalo,ok,,2,"85,223",Contar como Buffalo
+Agua mineral,base,12.0,Contar como Agua Mineral,count_as,True,True,Agua Mineral,agua mineral,base,agua mineral,ok,,2,"232,248",Contar como Agua Mineral
+Queso,complemento,2484.0,Contar como Flauta de Queso,count_as,True,True,Flauta de Queso,queso,complemento,flauta de queso,review,duplicate_conflict,2,"9,249",Contar como Flauta de Queso | Extras
+Aros de Cebolla,base,71.0,Complementos,direct,True,True,Aros de Cebolla,aros de cebolla,base,aros de cebolla,review,duplicate_conflict,2,"152,269",Complementos | Contar como Aros de Cebolla
+Queso y Tocino,complemento,22.0,Modificadores,direct,True,False,Queso y Tocino,queso y tocino,complemento,queso y tocino,review,duplicate_conflict,2,"200,244",Modificadores | Extras
