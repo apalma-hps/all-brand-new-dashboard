@@ -9,7 +9,6 @@ import re
 import unicodedata
 import json
 import urllib.request
-import matplotlib  # (lo dejas si lo usas en otra parte)
 
 from catalog_engine import compile_catalog
 
